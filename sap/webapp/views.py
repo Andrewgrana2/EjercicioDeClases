@@ -34,7 +34,7 @@ def mostras_personas(resquest):
 
     nombres_Personas = list()
     for persona in personas:
-        nombres_Personas.append(persona,['nombres'])
+        nombres_Personas.append(persona['Nombre'])
 
     mensaje = {'cantidad': cantidad_personas, 'personas': personas, 'nombres_Personas': nombres_Personas}
     pagina = loader.get_template('personas.html')

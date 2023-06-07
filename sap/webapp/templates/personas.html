@@ -7,18 +7,18 @@
 <body>
 <h1>Sistema de administracion de personas </h1>
 <p>Cantidad de personas: {{cantidad}} </p>
-{{personas}}
+<!--{{personas}}-->
 
-{% for personas in personas }
-   <p>{{personas.nombre}} {{personas.apellido}} </p>
+{% for persona in personas %}
+   <p>{{persona.Nombre}} {{persona.Apellido}} </p>
 {% endfor %}
 
 <br>
 <br>
 <br>
-{{nombres_Personas}}
-{% for nombre in nombres_Personas }
-   <p>{{personas}} </p>
-{% endfor %}
+<!--{{nombres_Personas}}-->
+<!--{% for nombre in nombres_Personas %}-->
+<!--   <p>{{personas}} </p>-->
+<!--{% endfor %}-->
 </body>
 </html>
